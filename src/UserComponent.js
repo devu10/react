@@ -1,10 +1,10 @@
 const Profile = (dev) => {
-  const { nameProps, bio } = dev;
-  console.log(dev);
+  const { nameProps, propsBio } = dev;
+
   return (
     <div>
-      <h1>heading for react {nameProps}</h1>
-      <p>{bio}</p>
+      <h1>heading for react {dev.nameProps}</h1>
+      <p>{dev.propsBio}</p>
     </div>
   );
 };

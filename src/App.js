@@ -8,8 +8,8 @@ const App = () => {
     "lorElit amet officia minim dolor ad deserunt nisi sit voluptate ullamco.";
   return (
     <>
-      <ProfileCom nameProps={name} test="resf546 lorem" />
-      <ProfileCom nameProps={"swek ss"} test="alpha" />
+      <ProfileCom nameProps={name} propsBio={bio} />
+      <ProfileCom nameProps={"swek ss"} propsBio="alpha" />
       <UserBio />
     </>
   );
