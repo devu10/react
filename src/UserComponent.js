@@ -1,10 +1,11 @@
-const Profile = (dev) => {
-  const { nameProps, propsBio } = dev;
+const Profile = ({ snameProps, spropsBio }) => {
+  // const { snameProps, spropsBio } = dev;
 
   return (
     <div>
-      <h1>heading for react {dev.nameProps}</h1>
-      <p>{dev.propsBio}</p>
+      <h1>heading for react {snameProps}</h1>
+      <p>{spropsBio}</p>
+      <hr></hr>
     </div>
   );
 };
