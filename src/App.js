@@ -13,6 +13,10 @@ const App = () => {
   const increase = () => {
     setCounter(counter + 1);
   };
+
+  const decrease = () => {
+    setCounter(counter - 1);
+  };
   console.log(counter);
   return (
     <>
@@ -23,7 +27,7 @@ const App = () => {
       <UserBio /> */}
       <div>{counter}</div>
       <button onClick={increase}>+</button>
-      <button>-</button>
+      <button onClick={decrease}>-</button>
     </>
   );
 };
