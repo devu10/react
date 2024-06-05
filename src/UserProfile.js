@@ -7,7 +7,12 @@ export const UserProfile = () => {
       </div>
       <div className="info">
         <h2>devendra</h2>
-        <p>lorem </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
+          perspiciatis asperiores neque voluptatibus ex culpa rem minima tempore
+          deleniti voluptas, maiores nesciunt quasi est nobis nihil ipsam
+          necessitatibus eligendi exercitationem.
+        </p>
       </div>
     </div>
   );

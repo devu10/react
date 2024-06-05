@@ -21,7 +21,13 @@ const App = () => {
   };
   console.log(counter);
   return (
-    <div className="user-page">
+    <div
+      className="user-page"
+      style={{
+        background: "black",
+        color: "white",
+      }}
+    >
       {/* <ProfileCom snameProps={name} spropsBio={bio} />
       <ProfileCom snameProps={"swek ss"} spropsBio="alpha" />
       <ProfileCom snameProps="anav dahal" spropsBio="beta" />
