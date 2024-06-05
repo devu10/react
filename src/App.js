@@ -24,7 +24,6 @@ const App = () => {
     <div
       className="user-page"
       style={{
-        background: "black",
         color: "white",
       }}
     >

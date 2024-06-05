@@ -8,6 +8,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url(../public/im.jpg);
+  background-position: center;
+  background-size: cover;
+  /* background-image: url(./im.jpg); */
 }
 
 .card {
