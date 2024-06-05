@@ -1,0 +1,13 @@
+.user-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 0 0 15px grey;
+  width: 350px;
+  padding: 10px;
+  border-radius: 10px;
+}

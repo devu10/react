@@ -3,6 +3,8 @@ import "./App.css";
 import ProfileCom from "./UserComponent";
 import { UserBio } from "./UserComponent";
 
+import { UserProfile } from "./UserProfile";
+
 const App = () => {
   // const [name] = useState("devendra dahal");
 
@@ -19,16 +21,17 @@ const App = () => {
   };
   console.log(counter);
   return (
-    <>
-      hello
+    <div className="user-page">
       {/* <ProfileCom snameProps={name} spropsBio={bio} />
       <ProfileCom snameProps={"swek ss"} spropsBio="alpha" />
       <ProfileCom snameProps="anav dahal" spropsBio="beta" />
       <UserBio /> */}
+      {/*
       <div>{counter}</div>
       <button onClick={increase}>+</button>
-      <button onClick={decrease}>-</button>
-    </>
+  <button onClick={() => setCounter(counter - 1)}>-</button>*/}
+      <UserProfile />
+    </div>
   );
 };
 
