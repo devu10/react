@@ -4,6 +4,7 @@ import ProfileCom from "./UserComponent";
 import { UserBio } from "./UserComponent";
 
 import { UserProfile } from "./UserProfile";
+import { MyForm } from "./MyForm";
 
 const App = () => {
   // const [name] = useState("devendra dahal");
@@ -35,7 +36,9 @@ const App = () => {
       <div>{counter}</div>
       <button onClick={increase}>+</button>
   <button onClick={() => setCounter(counter - 1)}>-</button>*/}
-      <UserProfile />
+      {/* <UserProfile /> */}
+
+      <MyForm />
     </div>
   );
 };
