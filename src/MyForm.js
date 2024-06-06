@@ -2,26 +2,26 @@ import { useRef } from "react";
 export const MyForm = () => {
   const addressRef = useRef("");
 
-  const submitForm = (e) => {
+  const handleSubmitForm = (e) => {
     e.preventDefault();
     // console.log(e);
     console.log(addressRef.current.value);
   };
 
-  const changeForm = (e) => {
+  const handleChangeForm = (e) => {
     const str = e.target.value;
     console.log(str);
   };
   console.log(addressRef);
   return (
-    <form action="" className="card" onSubmit={submitForm}>
+    <form action="" className="card" onSubmit={handleSubmitForm}>
       <div className="mb-3">
         <input
           type="text"
           className="form-control mb-3"
           required
           placeholder="name"
-          onChange={changeForm}
+          onChange={handleChangeForm}
         ></input>
         <input
           type="text"
